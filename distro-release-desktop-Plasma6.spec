@@ -133,5 +133,8 @@ install -m 0644 desktops/Plasma6/org.om.plasma6.desktop.defaultPanel-layout.js %
 %files
 %{_sysconfdir}/xdg/*
 %{_datadir}/konsole/OM.profile
+%{_datadir}/kservices5/plasma-layout-template-org.om.plasma6.desktop.defaultPanel.desktop
+%{_datadir}/kservices5/plasma-layout-template-org.om.plasma6.desktop.defaultPanel.json
 %{_datadir}/plasma/layout-templates/org.om.plasma6.desktop.defaultPanel
 %{_datadir}/plasma/look-and-feel/org.openmandriva6.desktop
+%{_datadir}/plasma/shells/org.kde.plasma.desktop/contents/layout.js
